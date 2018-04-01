@@ -13,13 +13,13 @@ class Alien(Sprite):
 		self.rect = self.image.get_rect()
 		
 		#设置默认位置
-		self.rect.x = self.screen.width
-		self.rect.y = self.screen.height
+		self.rect.x = self.rect.width
+		self.rect.y = self.rect.height
 		
 		#存储正确位置
 		self.x = float(self.rect.x)
 		
-def blitme(self):
-	#指定位置绘制
-	self.screen.blit(self.image, self.rect)
+	def blitme(self):
+		#指定位置绘制
+		self.screen.blit(self.image, self.rect)
 	
