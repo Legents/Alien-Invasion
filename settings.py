@@ -30,6 +30,8 @@
         self.alien_speed_factor = 1
         #direction向右为正 向左为负
         self.fleet_direction = 1
+        #计分
+        self.alien_points = 50
         
     def increase_speed(self):
         #提高速度
